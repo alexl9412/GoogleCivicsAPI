@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		5D52561D29AF87820064F247 /* GoogleCivicsAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D52561C29AF87820064F247 /* GoogleCivicsAPIApp.swift */; };
-		5D52561F29AF87820064F247 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D52561E29AF87820064F247 /* ContentView.swift */; };
+		5D52561F29AF87820064F247 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D52561E29AF87820064F247 /* AddressView.swift */; };
 		5D52562129AF87850064F247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D52562029AF87850064F247 /* Assets.xcassets */; };
 		5D52562429AF87850064F247 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D52562329AF87850064F247 /* Preview Assets.xcassets */; };
+		5D52562B29AF883E0064F247 /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D52562A29AF883E0064F247 /* AddressModel.swift */; };
+		5D52562D29AF885D0064F247 /* ElectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D52562C29AF885D0064F247 /* ElectionModel.swift */; };
+		5D52562F29AF88670064F247 /* ElectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D52562E29AF88670064F247 /* ElectionViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5D52561929AF87820064F247 /* GoogleCivicsAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleCivicsAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D52561C29AF87820064F247 /* GoogleCivicsAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleCivicsAPIApp.swift; sourceTree = "<group>"; };
-		5D52561E29AF87820064F247 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D52561E29AF87820064F247 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 		5D52562029AF87850064F247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D52562329AF87850064F247 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D52562A29AF883E0064F247 /* AddressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressModel.swift; sourceTree = "<group>"; };
+		5D52562C29AF885D0064F247 /* ElectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectionModel.swift; sourceTree = "<group>"; };
+		5D52562E29AF88670064F247 /* ElectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				5D52561C29AF87820064F247 /* GoogleCivicsAPIApp.swift */,
-				5D52561E29AF87820064F247 /* ContentView.swift */,
+				5D52561E29AF87820064F247 /* AddressView.swift */,
+				5D52562A29AF883E0064F247 /* AddressModel.swift */,
+				5D52562C29AF885D0064F247 /* ElectionModel.swift */,
+				5D52562E29AF88670064F247 /* ElectionViewModel.swift */,
 				5D52562029AF87850064F247 /* Assets.xcassets */,
 				5D52562229AF87850064F247 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D52561F29AF87820064F247 /* ContentView.swift in Sources */,
+				5D52562F29AF88670064F247 /* ElectionViewModel.swift in Sources */,
+				5D52561F29AF87820064F247 /* AddressView.swift in Sources */,
 				5D52561D29AF87820064F247 /* GoogleCivicsAPIApp.swift in Sources */,
+				5D52562D29AF885D0064F247 /* ElectionModel.swift in Sources */,
+				5D52562B29AF883E0064F247 /* AddressModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

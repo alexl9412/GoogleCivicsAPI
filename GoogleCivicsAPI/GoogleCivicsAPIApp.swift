@@ -11,7 +11,7 @@ import SwiftUI
 struct GoogleCivicsAPIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AddressView()
         }
     }
 }
